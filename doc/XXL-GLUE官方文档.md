@@ -68,7 +68,7 @@ XXL-GLUE在功能上完全可以替代前者，只需要在可执行代码块中
 ```
 ### JDBC 配置
 xxl.glue.db.driverClass=com.mysql.jdbc.Driver
-xxl.glue.db.url=jdbc:mysql://localhost:3306/xxl-glue?useUnicode=true&characterEncoding=UTF-8
+xxl.glue.db.url=jdbc:mysql://localhost:3306/xxl_glue?useUnicode=true&characterEncoding=UTF-8
 xxl.glue.db.user=root
 xxl.glue.db.password=root_pwd
 
@@ -100,7 +100,7 @@ xxl.glue.login.password=123456
 ```
 ### JDBC 配置
 xxl.glue.db.driverClass=com.mysql.jdbc.Driver
-xxl.glue.db.url=jdbc:mysql://localhost:3306/xxl-glue?useUnicode=true&characterEncoding=UTF-8
+xxl.glue.db.url=jdbc:mysql://localhost:3306/xxl_glue?useUnicode=true&characterEncoding=UTF-8
 xxl.glue.db.user=root
 xxl.glue.db.password=root_pwd
 
@@ -116,7 +116,7 @@ xxl.glue.zkserver=127.0.0.1:2181
 点击GLUE右侧 “Web IDE”按钮，即可进入GLUE的代码开发界面，可在该界面开发GLUE代码，也可以在IDE中开发完成后粘贴进来，默认已经初始化Demo代码。
 （每个Glue必须是实现统一父接口GlueHandler的子类；详情可参考章节 "5.1" ）
 
-初始化数据局之后，系统默认生成了三个典型场景的GLUE示例，可以参考GLUE示例开发第一个GLUE（GLUE的三种经典使用场景，可参考 "章节四"）。
+初始化数据之后，系统默认生成了三个典型场景的GLUE示例，可以参考GLUE示例开发第一个GLUE（GLUE的三种经典使用场景，可参考 "章节四"）。
 	
 ![输入图片说明](https://raw.githubusercontent.com/xuxueli/xxl-glue/master/doc/images/img_bzf0.png "在这里输入图片标题")
     
@@ -128,7 +128,7 @@ xxl.glue.zkserver=127.0.0.1:2181
 ```
 
 
-"GLUE接入Example项目(xxl-glue-core-example)" 中，针对 "初始化数据局之后，系统默认生成了三个典型场景的GLUE示例" 提供了相应的示例调用代码，代码位置是：
+"GLUE接入Example项目(xxl-glue-core-example)" 中，针对 "初始化数据之后，系统默认生成了三个典型场景的GLUE示例" 提供了相应的示例调用代码，代码位置是：
 
     xxl-glue-core-example/com.xxl.glue.example.controller.IndexController.index
 
